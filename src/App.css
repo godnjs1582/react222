@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  margin:0;
+  padding:0;
+}
+
 .App {
   text-align: center;
 }
 
+body {
+  background-image: radial-gradient(#35276e 20%, #242424 20%);
+  background-position: 0 0;
+  background-size: 10px 10px;
+  height: 200px;
+  width: 100%;
+  overflow-x: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

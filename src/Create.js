@@ -55,8 +55,8 @@ const Create =(props) =>{
 const PlusPost =styled.div`
 margin:0 auto;
 margin-top:60px;
-width:500px;
-height:600px;
+max-width:500px;
+
 h3{
     font-size:20px;
     padding-top:20px;

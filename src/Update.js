@@ -56,7 +56,7 @@ const Update =(props)=>{
         const PlusPost =styled.div`
         margin:0 auto;
         margin-top:70px;
-        width:500px;
+        max-width:500px;
         height:600px;
         h3{
             font-size:20px;

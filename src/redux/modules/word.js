@@ -114,7 +114,6 @@ export default function reducer(state = initialState, action = {}) {
     switch (action.type) {
 
         case "word/LOAD":{
-            // console.log(action.word_list.sort(function(a,b){return a.index-b.index}));
             return {list:action.word_list.sort(function(a,b){return a.index-b.index})};
             
         }

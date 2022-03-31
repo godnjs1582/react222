@@ -13,6 +13,7 @@ const Create =(props) =>{
     const meaning = React.useRef(null);
     const example = React.useRef(null);
     const translation = React.useRef(null);
+
     let count=0;
     const word_list =useSelector((state)=>state.word.list);
     for(let i=0;i<word_list.length;i++){
@@ -22,6 +23,7 @@ const Create =(props) =>{
         const new_post={index:count,word:word.current.value,pinyin:pinyin.current.value,meaning:meaning.current.value,example:example.current.value,translation:translation.current.value,completed:false}
         dispatch(createWordFB(new_post));
         history.goBack()
+        console.log(word.current.value)
     };
     return (
     <PlusPost>
